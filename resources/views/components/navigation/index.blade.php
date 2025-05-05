@@ -21,6 +21,9 @@
                href="{{ route('home') }}" title="Contact Us">Cult Gear </a>
             <a wire:navigate
                class="text-xl  font-bangers  transition-all hover:scale-125  text-white drop-shadow-hard-sm-black"
+               href="{{ route('home') }}" title="Contact Us">NFT </a>
+            <a wire:navigate
+               class="text-xl  font-bangers  transition-all hover:scale-125  text-white drop-shadow-hard-sm-black"
                href="{{ route('home') }}" title="Contact Us">Pledge Your Wallet </a>
             <a wire:navigate
                class="text-xl  font-bangers  transition-all hover:scale-125  text-white drop-shadow-hard-sm-black"

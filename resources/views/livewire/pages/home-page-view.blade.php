@@ -5,7 +5,7 @@
             <div class="relative">
                 <div class="sticky top-8 space-y-6 ">
 
-                    <h1 class="font-bangers text-balance  text-4xl -skew-2 first-letter:text-5xl tracking-wide  lg:text-6xl lg:first-letter:text-7xl bold-shadow-sm drop-shadow-md/90 drop-shadow-hard italic mb-4">
+                    <h1 class="font-bangers text-balance box text-4xl -skew-2 first-letter:text-5xl tracking-wide  lg:text-6xl lg:first-letter:text-7xl bold-shadow-sm drop-shadow-md/90 drop-shadow-hard italic mb-4">
                         Welcome to Grimm Coin</h1>
                     <p class="text-xl italic text-primary-500">
                         <svg aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24"
@@ -51,7 +51,7 @@
             </div>
             <div class="relative">
                 <div class="sticky top-8 space-y-6 ">
-                    <h1 class="font-bangers text-balance  text-4xl -skew-2 first-letter:text-5xl tracking-wide  lg:text-6xl lg:first-letter:text-7xl bold-shadow-sm drop-shadow-md/90 drop-shadow-hard italic mb-4">
+                    <h1 class="font-bangers text-balance box text-4xl -skew-2 first-letter:text-5xl tracking-wide  lg:text-6xl lg:first-letter:text-7xl bold-shadow-sm drop-shadow-md/90 drop-shadow-hard italic mb-4">
                         Why Grimm Coin?</h1>
                     <ul class="text-md lg:tracking-wide leading-8 mt-8 space-y-6 ">
                         <li class="text-gray-400 p-4 bg-gray-800/25 rounded-md"><strong class="text-xl text-white">Dead
@@ -94,7 +94,7 @@
         <div class="wrapper py-32 grid grid-cols-1 md:grid-cols-2 gap:4 md:gap-6 lg:gap-8">
             <div class="relative">
                 <div class="sticky top-8 space-y-6 ">
-                    <h1 class="font-bangers text-balance  text-4xl -skew-2 first-letter:text-5xl tracking-wide  lg:text-6xl lg:first-letter:text-7xl bold-shadow-sm drop-shadow-md/90 drop-shadow-hard italic mb-4">
+                    <h1 class="font-bangers text-balance box text-4xl -skew-2 first-letter:text-5xl tracking-wide  lg:text-6xl lg:first-letter:text-7xl bold-shadow-sm drop-shadow-md/90 drop-shadow-hard italic mb-4">
                         The Cult of Grimm</h1>
                     <p class="text-xl italic text-primary-500">
                         <svg aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24"
@@ -130,9 +130,11 @@
                 </div>
             </div>
 
-            <div class="p-8">
-                <img class="w-full drop-shadow-hard" aria-hidden="true"
-                     src="{{ Vite::asset('resources/img/grimm-tomb.png') }}" alt="grimm">
+            <div class="relative">
+                <div class="sticky top-8 space-y-6 ">
+                    <img class="w-full drop-shadow-hard" aria-hidden="true"
+                         src="{{ Vite::asset('resources/img/grimm-tomb.png') }}" alt="grimm">
+                </div>
             </div>
         </div>
     </section>

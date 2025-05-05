@@ -1,5 +1,5 @@
-<section
-    class="relative w-full min-h-[600px] 2xl:min-h-[800px] grid bg-radial-[at_35%_75%] from-secondary-500 to-black via-purple-950 via-75% overflow-clip">
+<section id="hero"
+         class="relative w-full min-h-[600px] 2xl:min-h-[800px] grid bg-radial-[at_35%_75%] from-secondary-500 to-black via-purple-950 via-75% overflow-clip">
     <!--Moon -->
     <div id="moon-container" aria-hidden="true"
          class="absolute left-1/2 top-10 -translate-1/2 size-100 lg:size-160 rounded-full border-amber-100 border-1">

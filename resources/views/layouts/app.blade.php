@@ -19,6 +19,8 @@
 
 {{ $slot }}
 
+<x-footer/>
+
 @livewireScriptConfig
 
 </body>
