@@ -4,36 +4,45 @@
             <h3 class="text-4xl drop-shadow-hard-sm font-bangers bold-shadow-sm !tracking-normal first-letter:text-5xl">
                 Hidden Path
             </h3>
-            <ul class="list-disc marker:text-primary-500 list-inside">
-                <li><a href="#">Lorem ipsum.</a></li>
-                <li><a href="#">Lorem ipsum.</a></li>
-                <li><a href="#">Lorem ipsum.</a></li>
-                <li><a href="#">Lorem ipsum.</a></li>
+            <ul class="list-disc marker:text-primary-500 list-inside space-y-2">
+                <li><a href="#">Youtube</a></li>
+                <li><a href="#">Telegram</a></li>
+                <li><a href="#">X</a></li>
+                <li><a href="#">Instagram</a></li>
             </ul>
         </div class=space-y-6>
         <div class="space-y-6">
             <h3 class="text-4xl drop-shadow-hard-sm font-bangers bold-shadow-sm !tracking-normal first-letter:text-5xl">
                 Cult Gathering
             </h3>
-            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ad aut beatae delectus dolorem magnam placeat
-                rerum vitae voluptatibus. Atque eos expedita explicabo hic iste possimus quaerat qui quibusdam ratione
-                voluptatibus.</p>
+            <ul class="list-disc marker:text-primary-500 list-inside space-y-2">
+                <li><a href="#">Youtube</a></li>
+                <li><a href="#">Telegram</a></li>
+                <li><a href="#">X</a></li>
+                <li><a href="#">Instagram</a></li>
+            </ul>
         </div>
         <div class="space-y-6">
             <h3 class="text-4xl drop-shadow-hard-sm font-bangers bold-shadow-sm !tracking-normal first-letter:text-5xl">
                 Hidden Path
             </h3>
-            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Accusantium doloremque molestiae saepe. Aperiam
-                assumenda cum doloribus, eligendi esse eum in nemo non perspiciatis porro possimus reprehenderit rerum,
-                sed sequi voluptate!</p>
+            <ul class="list-disc marker:text-primary-500 list-inside space-y-2">
+                <li><a href="#">Youtube</a></li>
+                <li><a href="#">Telegram</a></li>
+                <li><a href="#">X</a></li>
+                <li><a href="#">Instagram</a></li>
+            </ul>
         </div>
         <div class="space-y-6">
             <h3 class="text-4xl drop-shadow-hard-sm font-bangers bold-shadow-sm !tracking-normal first-letter:text-5xl">
                 Hidden Path
             </h3>
-            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Accusamus accusantium aspernatur consequuntur,
-                cum deserunt, dolorum expedita fugit magnam minima officia praesentium, quas repellendus reprehenderit
-                sint velit? Debitis neque perspiciatis vero.</p>
+            <ul class="list-disc marker:text-primary-500 list-inside space-y-2">
+                <li><a href="#">Youtube</a></li>
+                <li><a href="#">Telegram</a></li>
+                <li><a href="#">X</a></li>
+                <li><a href="#">Instagram</a></li>
+            </ul>
         </div>
     </div>
 </footer>

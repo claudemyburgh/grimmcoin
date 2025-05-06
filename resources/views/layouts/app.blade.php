@@ -13,7 +13,8 @@
     @livewireStyles
     @vite(['resources/css/app.css', 'resources/ts/app.ts'])
 </head>
-<body class="bg-black text-white h-full selection:bg-primary-500/20">
+<body
+    class="bg-black bg-gradient-to-b from-[#050708] via-gray-900 overflow-x-clip to-[#050708] text-white h-full selection:bg-primary-500/20">
 <x-navigation/>
 
 
@@ -22,6 +23,6 @@
 <x-footer/>
 
 @livewireScriptConfig
-
+@stack('scripts')
 </body>
 </html>

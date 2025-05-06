@@ -24,7 +24,7 @@
                href="{{ route('home') }}" title="Contact Us">NFT </a>
             <a wire:navigate
                class="text-xl  font-bangers  transition-all hover:scale-125  text-white drop-shadow-hard-sm-black"
-               href="{{ route('home') }}" title="Contact Us">Pledge Your Wallet </a>
+               href="{{ route('buy-coin') }}" title="Buy Coin">Pledge Your Wallet </a>
             <a wire:navigate
                class="text-xl  font-bangers  transition-all hover:scale-125  text-white drop-shadow-hard-sm-black"
                href="{{ route('home') }}" title="Contact Us">Send a Raven </a>
