@@ -2,24 +2,19 @@
 
 namespace App\Livewire\Pages;
 
+use Attestto\SolanaPhpSdk\SystemProgram;
 use Illuminate\View\View;
+use Livewire\Attributes\Title;
 use Livewire\Component;
-use Log;
 
+
+#[Title('Pledge your wallet')]
 class BuyCoinPageView extends Component
 {
-
-    protected $listeners = ['solana-payment-success' => 'handleSuccess'];
-
-    public function handleSuccess($payload)
-    {
-        // Save TX ID, update DB, give tokens, etc.
-        Log::info('Solana TX ID: ' . $payload['txid']);
-    }
-
+  
 
     public function render(): View
     {
-        return view('livewire.pages.buy-coin-page-view');
+        return view('pages.buy-coin-page-view');
     }
 }

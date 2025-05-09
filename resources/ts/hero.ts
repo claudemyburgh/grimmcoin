@@ -3,7 +3,7 @@ import { SplitText } from 'gsap/SplitText'
 import { TextPlugin } from 'gsap/TextPlugin'
 import { ScrollTrigger } from 'gsap/ScrollTrigger'
 
-document.addEventListener('livewire:navigated', (event) => {
+document.addEventListener('livewire:navigated', () => {
     gsap.registerPlugin(SplitText, TextPlugin, ScrollTrigger)
     const hero = document.getElementById('hero')
     if (hero) {
@@ -36,7 +36,7 @@ document.addEventListener('livewire:navigated', (event) => {
                 const split = SplitText.create('.heading', { type: 'chars' })
 
                 gsap.from(split.chars, {
-                    y: 10,
+                    y: 5,
                     repeat: -1,
                     yoyo: true,
                     stagger: 0.01,
@@ -44,8 +44,9 @@ document.addEventListener('livewire:navigated', (event) => {
 
                 // Grimm head sway
                 gsap.to('.grimm-head', {
-                    rotation: () => gsap.utils.random(-5, 5),
-                    duration: () => gsap.utils.random(1.5, 3),
+                    rotate: 70,
+                    // rotation: () => gsap.utils.random(-40, 40),
+                    duration: () => gsap.utils.random(1, 2),
                     ease: 'sine.inOut',
                     yoyo: true,
                     repeat: -1,

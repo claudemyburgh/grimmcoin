@@ -4,8 +4,84 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "9f4a5918176f7b5efcbb4f8aadc69f9c",
+    "content-hash": "2bdb6688eaf978e1a687bad96bedff8e",
     "packages": [
+        {
+            "name": "attestto/solana-php-sdk",
+            "version": "dev-master",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/Attestto-com/solana-php-sdk.git",
+                "reference": "7628d7dadfde449d01d2b0b640b39ef47b9a4334"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/Attestto-com/solana-php-sdk/zipball/7628d7dadfde449d01d2b0b640b39ef47b9a4334",
+                "reference": "7628d7dadfde449d01d2b0b640b39ef47b9a4334",
+                "shasum": ""
+            },
+            "require": {
+                "ext-sodium": "*",
+                "guzzlehttp/guzzle": "^7.3",
+                "paragonie/sodium_compat": "^1.17",
+                "php": "~8.2",
+                "stephenhill/base58": "^1.1",
+                "vlucas/phpdotenv": "^5.6"
+            },
+            "require-dev": {
+                "mockery/mockery": "^1.4",
+                "orchestra/testbench": "^9.0",
+                "phpunit/php-code-coverage": "^10.0",
+                "phpunit/phpunit": "^10.0",
+                "squizlabs/php_codesniffer": "^3.5",
+                "tightenco/tlint": "*"
+            },
+            "default-branch": true,
+            "type": "library",
+            "autoload": {
+                "psr-4": {
+                    "Attestto\\SolanaPhpSdk\\": "src"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Matt Stauffer",
+                    "homepage": "https://packagist.org/packages/tightenco/solana-php-sdk",
+                    "role": "Original Creator Developer [Legacy]"
+                },
+                {
+                    "name": "Zach Vander Velden",
+                    "homepage": "https://github.com/exzachlyvv",
+                    "role": "Developer - Metadata [Legacy]"
+                },
+                {
+                    "name": "Eduardo Chongkan",
+                    "email": "eduardo@attestto.com",
+                    "homepage": "https://github.com/chongkan",
+                    "role": "Developer - [Current Maintainer]"
+                }
+            ],
+            "description": "Solana PHP SDK for interacting with the Solana blockchain",
+            "homepage": "https://github.com/Attestto-com/solana-php-sdk",
+            "keywords": [
+                "attestto",
+                "blockchain",
+                "php",
+                "sdk",
+                "sol",
+                "solana",
+                "solana-php-sdk"
+            ],
+            "support": {
+                "issues": "https://github.com/Attestto-com/solana-php-sdk/issues",
+                "source": "https://github.com/Attestto-com/solana-php-sdk/tree/master"
+            },
+            "time": "2024-11-08T11:08:50+00:00"
+        },
         {
             "name": "brick/math",
             "version": "0.12.3",
@@ -65,6 +141,60 @@
                 }
             ],
             "time": "2025-02-28T13:11:00+00:00"
+        },
+        {
+            "name": "calebporzio/sushi",
+            "version": "v2.5.3",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/calebporzio/sushi.git",
+                "reference": "bf184973f943216b2aaa8dbc79631ea806038bb1"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/calebporzio/sushi/zipball/bf184973f943216b2aaa8dbc79631ea806038bb1",
+                "reference": "bf184973f943216b2aaa8dbc79631ea806038bb1",
+                "shasum": ""
+            },
+            "require": {
+                "ext-pdo_sqlite": "*",
+                "ext-sqlite3": "*",
+                "illuminate/database": "^5.8 || ^6.0 || ^7.0 || ^8.0 || ^9.0 || ^10.0 || ^11.0 || ^12.0",
+                "illuminate/support": "^5.8 || ^6.0 || ^7.0 || ^8.0 || ^9.0 || ^10.0 || ^11.0 || ^12.0",
+                "php": "^7.1.3|^8.0"
+            },
+            "require-dev": {
+                "doctrine/dbal": "^2.9 || ^3.1.4",
+                "orchestra/testbench": "3.8.* || 3.9.* || ^4.0 || ^5.0 || ^6.0 || ^7.0 || ^8.0 || ^9.0 || ^10.0",
+                "phpunit/phpunit": "^7.5 || ^8.4 || ^9.0 || ^10.0 || ^11.0"
+            },
+            "type": "library",
+            "autoload": {
+                "psr-4": {
+                    "Sushi\\": "src/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Caleb Porzio",
+                    "email": "calebporzio@gmail.com"
+                }
+            ],
+            "description": "Eloquent's missing \"array\" driver.",
+            "support": {
+                "source": "https://github.com/calebporzio/sushi/tree/v2.5.3"
+            },
+            "funding": [
+                {
+                    "url": "https://github.com/calebporzio",
+                    "type": "github"
+                }
+            ],
+            "time": "2025-02-13T21:03:57+00:00"
         },
         {
             "name": "carbonphp/carbon-doctrine-types",
@@ -1056,16 +1186,16 @@
         },
         {
             "name": "laravel/framework",
-            "version": "v12.12.0",
+            "version": "v12.13.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/laravel/framework.git",
-                "reference": "8f6cd73696068c28f30f5964556ec9d14e5d90d7"
+                "reference": "52b588bcd8efc6d01bc1493d2d67848f8065f269"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/laravel/framework/zipball/8f6cd73696068c28f30f5964556ec9d14e5d90d7",
-                "reference": "8f6cd73696068c28f30f5964556ec9d14e5d90d7",
+                "url": "https://api.github.com/repos/laravel/framework/zipball/52b588bcd8efc6d01bc1493d2d67848f8065f269",
+                "reference": "52b588bcd8efc6d01bc1493d2d67848f8065f269",
                 "shasum": ""
             },
             "require": {
@@ -1086,7 +1216,7 @@
                 "guzzlehttp/uri-template": "^1.0",
                 "laravel/prompts": "^0.3.0",
                 "laravel/serializable-closure": "^1.3|^2.0",
-                "league/commonmark": "^2.6",
+                "league/commonmark": "^2.7",
                 "league/flysystem": "^3.25.1",
                 "league/flysystem-local": "^3.25.1",
                 "league/uri": "^7.5.1",
@@ -1178,7 +1308,7 @@
                 "php-http/discovery": "^1.15",
                 "phpstan/phpstan": "^2.0",
                 "phpunit/phpunit": "^10.5.35|^11.5.3|^12.0.1",
-                "predis/predis": "^2.3",
+                "predis/predis": "^2.3|^3.0",
                 "resend/resend-php": "^0.10.0",
                 "symfony/cache": "^7.2.0",
                 "symfony/http-client": "^7.2.0",
@@ -1210,7 +1340,7 @@
                 "pda/pheanstalk": "Required to use the beanstalk queue driver (^5.0).",
                 "php-http/discovery": "Required to use PSR-7 bridging features (^1.15).",
                 "phpunit/phpunit": "Required to use assertions and run tests (^10.5.35|^11.5.3|^12.0.1).",
-                "predis/predis": "Required to use the predis connector (^2.3).",
+                "predis/predis": "Required to use the predis connector (^2.3|^3.0).",
                 "psr/http-message": "Required to allow Storage::put to accept a StreamInterface (^1.0).",
                 "pusher/pusher-php-server": "Required to use the Pusher broadcast driver (^6.0|^7.0).",
                 "resend/resend-php": "Required to enable support for the Resend mail transport (^0.10.0).",
@@ -1267,7 +1397,7 @@
                 "issues": "https://github.com/laravel/framework/issues",
                 "source": "https://github.com/laravel/framework"
             },
-            "time": "2025-05-01T16:13:12+00:00"
+            "time": "2025-05-07T17:29:01+00:00"
         },
         {
             "name": "laravel/prompts",
@@ -1457,16 +1587,16 @@
         },
         {
             "name": "league/commonmark",
-            "version": "2.6.2",
+            "version": "2.7.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/thephpleague/commonmark.git",
-                "reference": "06c3b0bf2540338094575612f4a1778d0d2d5e94"
+                "reference": "6fbb36d44824ed4091adbcf4c7d4a3923cdb3405"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/thephpleague/commonmark/zipball/06c3b0bf2540338094575612f4a1778d0d2d5e94",
-                "reference": "06c3b0bf2540338094575612f4a1778d0d2d5e94",
+                "url": "https://api.github.com/repos/thephpleague/commonmark/zipball/6fbb36d44824ed4091adbcf4c7d4a3923cdb3405",
+                "reference": "6fbb36d44824ed4091adbcf4c7d4a3923cdb3405",
                 "shasum": ""
             },
             "require": {
@@ -1503,7 +1633,7 @@
             "type": "library",
             "extra": {
                 "branch-alias": {
-                    "dev-main": "2.7-dev"
+                    "dev-main": "2.8-dev"
                 }
             },
             "autoload": {
@@ -1560,7 +1690,7 @@
                     "type": "tidelift"
                 }
             ],
-            "time": "2025-04-18T21:09:27+00:00"
+            "time": "2025-05-05T12:20:28+00:00"
         },
         {
             "name": "league/config",
@@ -2499,31 +2629,31 @@
         },
         {
             "name": "nunomaduro/termwind",
-            "version": "v2.3.0",
+            "version": "v2.3.1",
             "source": {
                 "type": "git",
                 "url": "https://github.com/nunomaduro/termwind.git",
-                "reference": "52915afe6a1044e8b9cee1bcff836fb63acf9cda"
+                "reference": "dfa08f390e509967a15c22493dc0bac5733d9123"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/nunomaduro/termwind/zipball/52915afe6a1044e8b9cee1bcff836fb63acf9cda",
-                "reference": "52915afe6a1044e8b9cee1bcff836fb63acf9cda",
+                "url": "https://api.github.com/repos/nunomaduro/termwind/zipball/dfa08f390e509967a15c22493dc0bac5733d9123",
+                "reference": "dfa08f390e509967a15c22493dc0bac5733d9123",
                 "shasum": ""
             },
             "require": {
                 "ext-mbstring": "*",
                 "php": "^8.2",
-                "symfony/console": "^7.1.8"
+                "symfony/console": "^7.2.6"
             },
             "require-dev": {
-                "illuminate/console": "^11.33.2",
-                "laravel/pint": "^1.18.2",
+                "illuminate/console": "^11.44.7",
+                "laravel/pint": "^1.22.0",
                 "mockery/mockery": "^1.6.12",
-                "pestphp/pest": "^2.36.0",
-                "phpstan/phpstan": "^1.12.11",
-                "phpstan/phpstan-strict-rules": "^1.6.1",
-                "symfony/var-dumper": "^7.1.8",
+                "pestphp/pest": "^2.36.0 || ^3.8.2",
+                "phpstan/phpstan": "^1.12.25",
+                "phpstan/phpstan-strict-rules": "^1.6.2",
+                "symfony/var-dumper": "^7.2.6",
                 "thecodingmachine/phpstan-strict-rules": "^1.0.0"
             },
             "type": "library",
@@ -2566,7 +2696,7 @@
             ],
             "support": {
                 "issues": "https://github.com/nunomaduro/termwind/issues",
-                "source": "https://github.com/nunomaduro/termwind/tree/v2.3.0"
+                "source": "https://github.com/nunomaduro/termwind/tree/v2.3.1"
             },
             "funding": [
                 {
@@ -2582,7 +2712,143 @@
                     "type": "github"
                 }
             ],
-            "time": "2024-11-21T10:39:51+00:00"
+            "time": "2025-05-08T08:14:37+00:00"
+        },
+        {
+            "name": "paragonie/random_compat",
+            "version": "v9.99.100",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/paragonie/random_compat.git",
+                "reference": "996434e5492cb4c3edcb9168db6fbb1359ef965a"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/paragonie/random_compat/zipball/996434e5492cb4c3edcb9168db6fbb1359ef965a",
+                "reference": "996434e5492cb4c3edcb9168db6fbb1359ef965a",
+                "shasum": ""
+            },
+            "require": {
+                "php": ">= 7"
+            },
+            "require-dev": {
+                "phpunit/phpunit": "4.*|5.*",
+                "vimeo/psalm": "^1"
+            },
+            "suggest": {
+                "ext-libsodium": "Provides a modern crypto API that can be used to generate random bytes."
+            },
+            "type": "library",
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Paragon Initiative Enterprises",
+                    "email": "security@paragonie.com",
+                    "homepage": "https://paragonie.com"
+                }
+            ],
+            "description": "PHP 5.x polyfill for random_bytes() and random_int() from PHP 7",
+            "keywords": [
+                "csprng",
+                "polyfill",
+                "pseudorandom",
+                "random"
+            ],
+            "support": {
+                "email": "info@paragonie.com",
+                "issues": "https://github.com/paragonie/random_compat/issues",
+                "source": "https://github.com/paragonie/random_compat"
+            },
+            "time": "2020-10-15T08:29:30+00:00"
+        },
+        {
+            "name": "paragonie/sodium_compat",
+            "version": "v1.21.1",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/paragonie/sodium_compat.git",
+                "reference": "bb312875dcdd20680419564fe42ba1d9564b9e37"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/paragonie/sodium_compat/zipball/bb312875dcdd20680419564fe42ba1d9564b9e37",
+                "reference": "bb312875dcdd20680419564fe42ba1d9564b9e37",
+                "shasum": ""
+            },
+            "require": {
+                "paragonie/random_compat": ">=1",
+                "php": "^5.2.4|^5.3|^5.4|^5.5|^5.6|^7|^8"
+            },
+            "require-dev": {
+                "phpunit/phpunit": "^3|^4|^5|^6|^7|^8|^9"
+            },
+            "suggest": {
+                "ext-libsodium": "PHP < 7.0: Better performance, password hashing (Argon2i), secure memory management (memzero), and better security.",
+                "ext-sodium": "PHP >= 7.0: Better performance, password hashing (Argon2i), secure memory management (memzero), and better security."
+            },
+            "type": "library",
+            "autoload": {
+                "files": [
+                    "autoload.php"
+                ]
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "ISC"
+            ],
+            "authors": [
+                {
+                    "name": "Paragon Initiative Enterprises",
+                    "email": "security@paragonie.com"
+                },
+                {
+                    "name": "Frank Denis",
+                    "email": "jedisct1@pureftpd.org"
+                }
+            ],
+            "description": "Pure PHP implementation of libsodium; uses the PHP extension if it exists",
+            "keywords": [
+                "Authentication",
+                "BLAKE2b",
+                "ChaCha20",
+                "ChaCha20-Poly1305",
+                "Chapoly",
+                "Curve25519",
+                "Ed25519",
+                "EdDSA",
+                "Edwards-curve Digital Signature Algorithm",
+                "Elliptic Curve Diffie-Hellman",
+                "Poly1305",
+                "Pure-PHP cryptography",
+                "RFC 7748",
+                "RFC 8032",
+                "Salpoly",
+                "Salsa20",
+                "X25519",
+                "XChaCha20-Poly1305",
+                "XSalsa20-Poly1305",
+                "Xchacha20",
+                "Xsalsa20",
+                "aead",
+                "cryptography",
+                "ecdh",
+                "elliptic curve",
+                "elliptic curve cryptography",
+                "encryption",
+                "libsodium",
+                "php",
+                "public-key cryptography",
+                "secret-key cryptography",
+                "side-channel resistant"
+            ],
+            "support": {
+                "issues": "https://github.com/paragonie/sodium_compat/issues",
+                "source": "https://github.com/paragonie/sodium_compat/tree/v1.21.1"
+            },
+            "time": "2024-04-22T22:05:04+00:00"
         },
         {
             "name": "phpoption/phpoption",
@@ -3361,6 +3627,48 @@
                 }
             ],
             "time": "2024-04-27T21:32:50+00:00"
+        },
+        {
+            "name": "stephenhill/base58",
+            "version": "v1.1.5",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/stephen-hill/base58php.git",
+                "reference": "bd9fc19c788160a2f85ba0a19cd800eaf5ba5e99"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/stephen-hill/base58php/zipball/bd9fc19c788160a2f85ba0a19cd800eaf5ba5e99",
+                "reference": "bd9fc19c788160a2f85ba0a19cd800eaf5ba5e99",
+                "shasum": ""
+            },
+            "require-dev": {
+                "athletic/athletic": "~0.1",
+                "phpunit/phpunit": "4.*"
+            },
+            "type": "library",
+            "autoload": {
+                "psr-4": {
+                    "StephenHill\\": "src/",
+                    "StephenHill\\Benchmarks\\": "benchmarks/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Stephen Hill",
+                    "email": "stephen@gatekiller.co.uk"
+                }
+            ],
+            "description": "Base58 Encoding and Decoding Library for PHP",
+            "support": {
+                "issues": "https://github.com/stephen-hill/base58php/issues",
+                "source": "https://github.com/stephen-hill/base58php/tree/v1.1.5"
+            },
+            "time": "2019-08-22T16:51:59+00:00"
         },
         {
             "name": "symfony/clock",
@@ -6214,16 +6522,16 @@
         },
         {
             "name": "laravel/pint",
-            "version": "v1.22.0",
+            "version": "v1.22.1",
             "source": {
                 "type": "git",
                 "url": "https://github.com/laravel/pint.git",
-                "reference": "7ddfaa6523a675fae5c4123ee38fc6bfb8ee4f36"
+                "reference": "941d1927c5ca420c22710e98420287169c7bcaf7"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/laravel/pint/zipball/7ddfaa6523a675fae5c4123ee38fc6bfb8ee4f36",
-                "reference": "7ddfaa6523a675fae5c4123ee38fc6bfb8ee4f36",
+                "url": "https://api.github.com/repos/laravel/pint/zipball/941d1927c5ca420c22710e98420287169c7bcaf7",
+                "reference": "941d1927c5ca420c22710e98420287169c7bcaf7",
                 "shasum": ""
             },
             "require": {
@@ -6235,11 +6543,11 @@
             },
             "require-dev": {
                 "friendsofphp/php-cs-fixer": "^3.75.0",
-                "illuminate/view": "^11.44.2",
-                "larastan/larastan": "^3.3.1",
+                "illuminate/view": "^11.44.7",
+                "larastan/larastan": "^3.4.0",
                 "laravel-zero/framework": "^11.36.1",
                 "mockery/mockery": "^1.6.12",
-                "nunomaduro/termwind": "^2.3",
+                "nunomaduro/termwind": "^2.3.1",
                 "pestphp/pest": "^2.36.0"
             },
             "bin": [
@@ -6276,7 +6584,7 @@
                 "issues": "https://github.com/laravel/pint/issues",
                 "source": "https://github.com/laravel/pint"
             },
-            "time": "2025-04-08T22:11:45+00:00"
+            "time": "2025-05-08T08:38:12+00:00"
         },
         {
             "name": "laravel/sail",
@@ -6667,8 +6975,10 @@
         }
     ],
     "aliases": [],
-    "minimum-stability": "stable",
-    "stability-flags": {},
+    "minimum-stability": "dev",
+    "stability-flags": {
+        "attestto/solana-php-sdk": 20
+    },
     "prefer-stable": true,
     "prefer-lowest": false,
     "platform": {

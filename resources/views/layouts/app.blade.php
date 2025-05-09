@@ -4,7 +4,8 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-    <title>{{ $title ?? 'Page Title' }}</title>
+    <title>{{ isset($title) ? $title . ' | Grimm Coin' : 'Grimm Coin' }}</title>
+
 
     <link rel="preconnect" href="https://fonts.bunny.net">
     <link
@@ -14,11 +15,13 @@
     @vite(['resources/css/app.css', 'resources/ts/app.ts'])
 </head>
 <body
-    class="bg-black bg-gradient-to-b from-[#050708] via-gray-900 overflow-x-clip to-[#050708] text-white h-full selection:bg-primary-500/20">
+    class="bg-black bg-gradient-to-b from-[#050708] via-gray-900 overflow-x-clip to-[#050708] text-white h-full selection:bg-primary-500/20 flex flex-col">
 <x-navigation/>
 
+<main id="main">
+    {{ $slot }}
+</main>
 
-{{ $slot }}
 
 <x-footer/>
 

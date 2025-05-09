@@ -2,7 +2,8 @@
 
 namespace App\Providers;
 
-use Illuminate\Routing\UrlGenerator;
+
+use Illuminate\Support\Facades\URL;
 use Illuminate\Support\ServiceProvider;
 
 class ForceHttpsServiceProvider extends ServiceProvider
@@ -18,10 +19,13 @@ class ForceHttpsServiceProvider extends ServiceProvider
     /**
      * Bootstrap services.
      */
-    public function boot(UrlGenerator $url): void
+    public function boot(): void
     {
-        if (config('app.force_https')) {
-            $url->forceHttps();
-        }
+//        if (config('app.force_https')) {
+//            $url->forceHttps();
+//        }
+//        URL::forceHttps($this->app->environment('production'));
+        URL::forceHttps(config('app,force_https'));
+
     }
 }

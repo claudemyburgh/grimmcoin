@@ -18,9 +18,10 @@
             </div>
 
         </div>
-        <div class="absolute md:relative z-10 top-0 lg:bottom-10 2xl:scale-125 flex flex-col justify-center w-full">
+        <div
+            class="absolute md:relative z-10 top-32 lg:bottom-10 2xl:scale-125  flex flex-col justify-center w-full">
             <h1
-                class="font-bangers text-7xl lg:text-8xl bold-shadow drop-shadow-xl/90 drop-shadow-black/75 italic mb-4">
+                class="font-bangers hidden lg:block text-7xl lg:text-8xl bold-shadow drop-shadow-xl/90 drop-shadow-black/75 italic mb-4">
                 <span
                     class="lg:text-8xl mt-2 relative inline-block first-letter:-z-10 first-letter:text-9xl">Grimm</span>
                 <span

@@ -1,6 +1,6 @@
 {
   "resources/css/app.css": {
-    "file": "assets/app-Csjn9gXX.css",
+    "file": "assets/app-BGGxF0Yw.css",
     "src": "resources/css/app.css",
     "isEntry": true
   },
@@ -8,44 +8,148 @@
     "file": "assets/banner-BIgMVHe4.png",
     "src": "resources/img/banner.png"
   },
+  "resources/img/banner.webp": {
+    "file": "assets/banner-XhgaG0XP.webp",
+    "src": "resources/img/banner.webp"
+  },
+  "resources/img/dino-1.png": {
+    "file": "assets/dino-1-D7e9YWMJ.png",
+    "src": "resources/img/dino-1.png"
+  },
+  "resources/img/dino-1.webp": {
+    "file": "assets/dino-1-BrPRVEA8.webp",
+    "src": "resources/img/dino-1.webp"
+  },
+  "resources/img/dino-2.png": {
+    "file": "assets/dino-2-Cei6F-xe.png",
+    "src": "resources/img/dino-2.png"
+  },
+  "resources/img/dino-2.webp": {
+    "file": "assets/dino-2-BFYKNCkN.webp",
+    "src": "resources/img/dino-2.webp"
+  },
+  "resources/img/footer-skull-2.png": {
+    "file": "assets/footer-skull-2-DXvhBsre.png",
+    "src": "resources/img/footer-skull-2.png"
+  },
+  "resources/img/footer-skull-2.webp": {
+    "file": "assets/footer-skull-2-MUBLgPsQ.webp",
+    "src": "resources/img/footer-skull-2.webp"
+  },
+  "resources/img/footer-skulls.png": {
+    "file": "assets/footer-skulls-DY9Cv-1_.png",
+    "src": "resources/img/footer-skulls.png"
+  },
+  "resources/img/footer-skulls.webp": {
+    "file": "assets/footer-skulls-DU0MkTV9.webp",
+    "src": "resources/img/footer-skulls.webp"
+  },
   "resources/img/grass.png": {
     "file": "assets/grass-DTZEYOgi.png",
     "src": "resources/img/grass.png"
+  },
+  "resources/img/grass.webp": {
+    "file": "assets/grass-D8WNr9W8.webp",
+    "src": "resources/img/grass.webp"
+  },
+  "resources/img/grimm-back.png": {
+    "file": "assets/grimm-back-DGBY6sCw.png",
+    "src": "resources/img/grimm-back.png"
+  },
+  "resources/img/grimm-back.webp": {
+    "file": "assets/grimm-back-1bIXRydI.webp",
+    "src": "resources/img/grimm-back.webp"
   },
   "resources/img/grimm-body.png": {
     "file": "assets/grimm-body-d-H-P335.png",
     "src": "resources/img/grimm-body.png"
   },
+  "resources/img/grimm-body.webp": {
+    "file": "assets/grimm-body-Dhb4fod2.webp",
+    "src": "resources/img/grimm-body.webp"
+  },
+  "resources/img/grimm-clipboard.png": {
+    "file": "assets/grimm-clipboard-BeRqVUCL.png",
+    "src": "resources/img/grimm-clipboard.png"
+  },
+  "resources/img/grimm-clipboard.webp": {
+    "file": "assets/grimm-clipboard-CqDtb_tB.webp",
+    "src": "resources/img/grimm-clipboard.webp"
+  },
+  "resources/img/grimm-coins.png": {
+    "file": "assets/grimm-coins-m1HNILJb.png",
+    "src": "resources/img/grimm-coins.png"
+  },
+  "resources/img/grimm-coins.webp": {
+    "file": "assets/grimm-coins-OF3XhJG9.webp",
+    "src": "resources/img/grimm-coins.webp"
+  },
   "resources/img/grimm-head-small.png": {
     "file": "assets/grimm-head-small-hUADcCYr.png",
     "src": "resources/img/grimm-head-small.png"
+  },
+  "resources/img/grimm-head-small.webp": {
+    "file": "assets/grimm-head-small-BOP82psy.webp",
+    "src": "resources/img/grimm-head-small.webp"
   },
   "resources/img/grimm-head.png": {
     "file": "assets/grimm-head-DZDy0xXU.png",
     "src": "resources/img/grimm-head.png"
   },
-  "resources/img/grimm-phone.png": {
-    "file": "assets/grimm-phone-C017s_6K.png",
-    "src": "resources/img/grimm-phone.png"
+  "resources/img/grimm-head.webp": {
+    "file": "assets/grimm-head-DRouFwwH.webp",
+    "src": "resources/img/grimm-head.webp"
   },
-  "resources/img/grimm-tomb.png": {
-    "file": "assets/grimm-tomb-aSbmOJd4.png",
-    "src": "resources/img/grimm-tomb.png"
+  "resources/img/grimm-mining.png": {
+    "file": "assets/grimm-mining-D1by9sn-.png",
+    "src": "resources/img/grimm-mining.png"
   },
-  "resources/img/grimm.png": {
-    "file": "assets/grimm-BDv5jxk9.png",
-    "src": "resources/img/grimm.png"
+  "resources/img/grimm-mining.webp": {
+    "file": "assets/grimm-mining-CQcUXuNm.webp",
+    "src": "resources/img/grimm-mining.webp"
+  },
+  "resources/img/grimm-relax.png": {
+    "file": "assets/grimm-relax-DQkcaO1L.png",
+    "src": "resources/img/grimm-relax.png"
+  },
+  "resources/img/grimm-relax.webp": {
+    "file": "assets/grimm-relax-nnPPU_QU.webp",
+    "src": "resources/img/grimm-relax.webp"
+  },
+  "resources/img/grimm-tombstone.png": {
+    "file": "assets/grimm-tombstone-DevLM--2.png",
+    "src": "resources/img/grimm-tombstone.png"
+  },
+  "resources/img/grimm-tombstone.webp": {
+    "file": "assets/grimm-tombstone-DaPRghix.webp",
+    "src": "resources/img/grimm-tombstone.webp"
+  },
+  "resources/img/grimmy.png": {
+    "file": "assets/grimmy-DUN6eDql.png",
+    "src": "resources/img/grimmy.png"
+  },
+  "resources/img/grimmy.webp": {
+    "file": "assets/grimmy-xV0ARdAB.webp",
+    "src": "resources/img/grimmy.webp"
   },
   "resources/img/moon.png": {
     "file": "assets/moon-mNtVwOMK.png",
     "src": "resources/img/moon.png"
   },
+  "resources/img/moon.webp": {
+    "file": "assets/moon-DppiG82V.webp",
+    "src": "resources/img/moon.webp"
+  },
   "resources/img/tree-1.png": {
     "file": "assets/tree-1-CjNnEf2_.png",
     "src": "resources/img/tree-1.png"
   },
+  "resources/img/tree-1.webp": {
+    "file": "assets/tree-1-B3tIeex0.webp",
+    "src": "resources/img/tree-1.webp"
+  },
   "resources/ts/app.ts": {
-    "file": "assets/app-SSJTZ_8b.js",
+    "file": "assets/app-DNYnbR-b.js",
     "name": "app",
     "src": "resources/ts/app.ts",
     "isEntry": true
